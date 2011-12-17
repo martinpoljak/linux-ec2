@@ -40,7 +40,7 @@ Contributing
 Copyright
 ---------
 
-Everything here is Public Domain. Author is [Martin Kozák][10].
+Everything is Public Domain. Author is [Martin Kozák][10].
 
 [1]: http://aur.archlinux.org/
 [2]: http://www.archlinux.org/
