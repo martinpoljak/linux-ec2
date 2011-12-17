@@ -1,15 +1,15 @@
-Arch Linux Kernel EC2 Package
+Arch Linux EC2 Kernel Package
 =============================
 
 **linux-ec2** [AUR][1] package builds the standard [Arch Linux][2] kernel
 with [Xen][3] Xsave patch and [EC2][4] suitable kernel configuration. Sources are 
 derived from standard distribution kernel (the `linux` package), so from
-standard kernel of [Linux][5].
+standard kernel of Linux.
 
 Issues
 ------
 
-Currently it's intended for `x86_64` machines only because I haven't been
+Currently it's intended for `x86-64` machines only because I haven't been
 able to get the `i686` build to run. This kernel also doesn't run on
 some older availabiality zones of some regions (specially for example
 on `us-east-1a`) for microinstances. This issue is known to Amazon, but
@@ -40,8 +40,12 @@ Contributing
 Copyright
 ---------
 
-Copyright &copy; 2011 [Martin Kozák][10]. See `LICENSE.txt` for
-further details.
+Everything here is Public Domain. Author is [Martin Kozák][10].
 
+[1]: http://aur.archlinux.org/
+[2]: http://www.archlinux.org/
+[3]: http://xen.org/
+[4]: http://aws.amazon.com/ec2/
+[6]: http://aws.amazon.com/s3/
 [9]: http://github.com/martinkozak/linux-ec2/issues
 [10]: http://www.martinkozak.net/
