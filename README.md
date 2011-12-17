@@ -4,16 +4,16 @@ Arch Linux EC2 Kernel Package
 **linux-ec2** [AUR][1] package builds the standard [Arch Linux][2] kernel
 with [Xen][3] Xsave patch and [EC2][4] suitable kernel configuration. Sources are 
 derived from standard distribution kernel (the `linux` package), so from
-standard kernel of Linux.
+standard Linux kernel.
 
 Issues
 ------
 
 Currently it's intended for `x86-64` machines only because I haven't been
-able to get the `i686` build to run. This kernel also doesn't run on
-some older availabiality zones of some regions (specially for example
+able to get the `i686` build run. This kernel also doesn't run on
+some older availability zones of some regions (specially for example
 on `us-east-1a`) for microinstances. This issue is known to Amazon, but
-reasons aren't clear. Simply use some newer availiability zone or 
+reasons aren't clear. Simply use some newer availability zone or 
 download older image from:
 
     http://s3.amazonaws.com/archlinux-ec2/arch-linux-64bit-ebs-20110415-minimal-ext4-bash.img.xz
