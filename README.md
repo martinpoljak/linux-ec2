@@ -11,7 +11,7 @@ Issues
 This kernel might not run on some older availability zones of some 
 regions (specially for example on `us-east-1a`) at microinstances. 
 This issue is known to Amazon, but reasons aren't clear and difficulties
-varies a lot. Simply use some newer availability zone in case of 
+vary a lot. Simply use some newer availability zone in case of 
 necessity or download an older image from:
 
     http://s3.amazonaws.com/archlinux-ec2/arch-linux-64bit-ebs-20110415-minimal-ext4-bash.img.xz
