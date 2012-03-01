@@ -109,7 +109,7 @@ build() {
 }
 
 package_linux-ec2() {
-  pkgdesc="The Linux Kernel and modules suitable for Amazon EC2"
+  pkgdesc="The Linux Kernel and modules with Xen guest support suitable for Amazon EC2"
   groups=('ec2')
   depends=('coreutils' 'linux-firmware' 'module-init-tools>=3.16' 'mkinitcpio>=0.7')
   optdepends=('crda: to set the correct wireless channels of your country')
@@ -161,7 +161,7 @@ package_linux-ec2() {
 }
 
 package_linux-ec2-headers() {
-  pkgdesc="Header files and scripts for building modules for linux kernel suitable for Amazon EC2"
+  pkgdesc="The Linux Kernel and modules with Xen guest support suitable for Amazon EC2"
   #provides=('kernel26-headers')
   #conflicts=('kernel26-headers')
   #replaces=('kernel26-headers')
