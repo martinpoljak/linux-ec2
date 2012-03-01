@@ -8,22 +8,17 @@ standard [Linux kernel][5].
 
 Issues
 ------
-
-Currently it's intended for `x86-64` machines only because I haven't been
-able to get the `i686` build run. This kernel also doesn't run on
-some older availability zones of some regions (specially for example
-on `us-east-1a`) for microinstances. This issue is known to Amazon, but
-reasons aren't clear. Simply use some newer availability zone or 
-download older image from:
+This kernel might not run on some older availability zones of some 
+regions (specially for example on `us-east-1a`) at microinstances. 
+This issue is known to Amazon, but reasons aren't clear and difficulties
+varies a lot. Simply use some newer availability zone in case of 
+necessity or download an older image from:
 
     http://s3.amazonaws.com/archlinux-ec2/arch-linux-64bit-ebs-20110415-minimal-ext4-bash.img.xz
     http://s3.amazonaws.com/archlinux-ec2/arch-linux-64bit-ebs-20110415-standard-ext4-zsh.img.xz
 
 ...unpack it, upload it to [S3][6] and register it as your own 
 private AMI. Be warn, they are small for download but 8 GB big unpacked.
-
-**If anyone know how to configure the i686 kernel to work on EC2,
-write me and I will release it to all AWS regions. Thank You.**
 
 
 Contributing
