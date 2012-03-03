@@ -2,9 +2,9 @@ Arch Linux EC2 Kernel Package
 =============================
 
 **linux-ec2** [AUR][1] package builds the standard [Arch Linux][2] kernel
-with [Xen][3] Xsave patch and [EC2][4] suitable kernel configuration. Sources are 
-derived from standard distribution kernel (the `linux` package), so from
-standard [Linux kernel][5].
+with [Xen][3] Xsave patch and [EC2][4] suitable minimal kernel configuration. 
+Sources are derived from standard distribution kernel (the `linux` package), 
+so from the standard [Linux kernel][5].
 
 Issues
 ------
@@ -19,6 +19,11 @@ necessity or download an older image from:
 
 ...unpack it, upload it to [S3][6] and register it as your own 
 private AMI. Be warn, they are small for download but 8 GB big unpacked.
+
+The `i386` version builds fully functional but full kernel. If someone is 
+able to provide me the minimal EC2 configuration for i386 platform, let's 
+do it. The `x64` version builds kernel with at EC2 usable modules only,
+but maintains some modules which probably can be removed from the build too.
 
 
 Contributing
