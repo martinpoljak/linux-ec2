@@ -6,6 +6,18 @@ with [Xen][3] Xsave patch and [EC2][4] suitable minimal kernel configuration.
 Sources are derived from standard distribution kernel (the `linux` package), 
 so from the standard [Linux kernel][5].
 
+Repository
+----------
+Binary packages repository for the EC2 `x86_64` kernel is available at:
+
+    [archlinux-ec2]
+    Server = https://downloads.sourceforge.net/project/archlinux-ec2/repo/x86_64
+    
+It includes also binary packages of other EC2 related tools from AUR.
+For use ithe kernel at i686, please, build your own. At this time, 
+I haven't available reasonable build machine for regular `i686` building.
+ 
+
 Issues
 ------
 This kernel might not run on some older availability zones of some 
