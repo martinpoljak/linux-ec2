@@ -14,8 +14,8 @@ Binary packages repository for the EC2 `x86_64` kernel is available at:
     Server = https://downloads.sourceforge.net/project/archlinux-ec2/repo/x86_64
     
 It includes also binary packages of other EC2 related tools from [AUR][1].
-For use the kernel at `i686`, please, build your own. At this time, 
-I haven't available reasonable build machine for regular `i686` building.
+For use the kernel at `i386`, please, build your own. At this time, 
+I haven't available reasonable build machine for regular `i386` building.
  
 
 Issues
