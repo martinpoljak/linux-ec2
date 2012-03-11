@@ -33,7 +33,7 @@ necessity or download an older image from:
 private AMI. Be warn, they are small for download but 8 GB big unpacked.
 
 The `i386` version builds fully functional but full kernel. If someone is 
-able to provide me the minimal EC2 configuration for i386 platform, let's 
+able to provide me the minimal EC2 configuration for `i386` platform, let's 
 do it. The `x64` version builds kernel with at EC2 usable modules only,
 but maintains some modules which probably can be removed from the build too.
 
