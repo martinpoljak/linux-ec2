@@ -29,7 +29,7 @@ source=("http://www.kernel.org/pub/linux/kernel/v3.x/linux-3.4.tar.xz"
 md5sums=('967f72983655e2479f951195953e8480'
          'ac52d3d82c20c7e80740fc5fb00b6ed4'
          'bd53e9048c93512c01ff8ce59bef2e1d'
-         'dee01bf70267d26eabdb4a88f52f4334'
+         '345b689558a4e1960e22444c9ba18cdd'
          '24557c9eade2e6ecb632f16924741c7b'
          '3cb9e819538197398aad5db5529b22d6'
          '9d3c56a4b999c8bfbd4018089a62f662'
