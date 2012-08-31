@@ -8,7 +8,7 @@ pkgname=('linux-ec2' 'linux-ec2-headers')       # Build kernel with a different 
 _kernelname=${pkgname#linux}
 _basekernel=3.5
 pkgver=${_basekernel}.3
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url="https://github.com/martinkozak/linux-ec2"
 license=('GPL2')
@@ -28,7 +28,7 @@ source=("http://www.kernel.org/pub/linux/kernel/v3.x/linux-3.5.tar.xz"
         'xen-xsave.patch')
 md5sums=('24153eaaa81dedc9481ada8cd9c3b83d'
          '01e0536109d2a06b1701b5051edfcea2'
-         'bd53e9048c93512c01ff8ce59bef2e1d'
+         '4eb50449b069bd699d92a290dce76d00'
          '369eb9faa7aae4657e7ccc5481f2f853'
          '24557c9eade2e6ecb632f16924741c7b'
          'c1d58e712112cf8f95e7831012a1e67a'
